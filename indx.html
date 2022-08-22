@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links CSS -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/mastar.css">
+    <!-- google fonts -->
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,500&display=swap" rel="stylesheet">
+    <title>Portflio</title>
+</head>
+<body>
+    <!-- start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Home</div>
+        </div>
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".gallery" href="#my skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">My Work</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Contact</div>
+        </div>
+        
+    </div>
+    <!-- end Nav Bullets -->
+    <!-- start Header  -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <h1>Mahmoud</h1>
+            </a>
+            <nav>
+                <i class="fa-solid fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#my skills">My Skills</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end Header  -->
+    <!-- landing -->
+    <section class="main">
+        <div class="container">
+            <h2>Hello, I'm Mahmoud<br><span>Web Developer</span></h2>
+            <h3>I'm a Front-End Developer</h3>
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- landing -->
+    <!-- start About  -->
+    <div class="services" id="About">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About</h2>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fas fa-desktop-alt"></i>
+                    <div class="text">
+                        <h3>Fast</h3>
+                        <p>i will finish site in a short time and with high quality</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-gear"></i>
+                    <div class="text">
+                        <h3>Creative</h3>
+                        <p>Modern and creative designs in line the UI/UX today</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <div class="text">
+                        <h3>Responsive</h3>
+                        <p>you will have modern responsive designs for all devices</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-play"></i>
+                    <div class="text">
+                        <h3>Animated</h3>
+                        <p>now, animatino is very important to drav the attention of the user</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services  -->
+    <!-- Start My skills -->
+    <div class="about" id="my skills">
+        <div class="container">
+            <div class="main-heading">
+                <h2>My skills</h2>
+            </div>
+            <div class="skills">
+                
+                
+                <div class="prog-holder">
+                    <h4>Html</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                    </div>
+                    <div class="prog-holder">
+                        <h4>Css</h4>
+                    <div class="prog">
+                        <span style="width: 85%" data-progress="85%"></span>
+                    </div>
+                    </div>
+                    <div class="prog-holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width: 80%" data-progress="80%"></span>
+                    </div>
+                    </div>
+                    <div class="prog-holder">
+                    <h4>Bootstrap</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End My skills -->
+    <!-- Start My work -->
+    <div class="about" id="work">
+        <div class="container">
+            <div class="main-heading">
+                <h2>My work</h2>
+            </div>
+            <section class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <div class="content">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro2.png" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro1.png" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro3.png" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro4.png" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro5.png" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pro6.png"/>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category"></p>
+                            <strong class="project-title">
+                                <span>Internet</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- End My work  -->
+    <!-- Start Contact -->
+    <div class="contact" id="Contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+        </div>
+        <div class="content">
+            <form action="">
+                <input class="main-input" type="text" name="name" placeholder="Your Name" />
+                <input class="main-input" type="email" name="mail" placeholder="Your Email" />
+                <input class="main-input" type="text" name="name" placeholder="Your phone" />
+                <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" />
+            </form>
+            <div class="info">
+                <h4>Get In Touch</h4>
+                <span class="phone">+00 123.456.789</span>
+                <span class="phone">+00 123.456.789</span>
+                <h4>Where We Are</h4>
+                <address>Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA</address>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <h1>MAHMOUD</h1>
+            <p>We Are Social</p>
+        <div class="social-icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p class="copyright">&copy; 2022 <span>Mahmoud</span> All Right Reserved</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="Js/js.js"></script>
+</body>
+</html>
